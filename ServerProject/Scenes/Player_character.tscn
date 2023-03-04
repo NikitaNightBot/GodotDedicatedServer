@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bnga33co83o00"]
+
+[ext_resource type="Script" path="res://Scripts/Player_character.gd" id="1_eubxd"]
+
+[node name="Player_character" type="Button"]
+script = ExtResource("1_eubxd")
+
+[connection signal="pressed" from="." to="." method="_on_player_character_pressed"]
